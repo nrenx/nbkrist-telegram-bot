@@ -1,0 +1,600 @@
+2024-11-29 10:14:02,917 - ERROR - demo1_bot.py:47 - Error decoding config.json: Invalid \escape: line 3 column 85 (char 149). Using default values. - load_config - MainThread
+2024-11-29 10:14:02,917 - INFO - demo1_bot.py:64 - Loaded config: {'api_key': 'YOUR_API_KEY', 'chrome_path': '/usr/bin/google-chrome', 'chromedriver_path': '/usr/local/bin/chromedriver', 'login_credentials': []} - <module> - MainThread
+2024-11-29 10:14:58,831 - INFO - demo1_bot.py:64 - Loaded config: {'api_key': '7667952086:AAGJuBl6R_E9naYnEnHR3c_8BG2kSka2DiY', 'chrome_path': '/Users/narendrachowdary/development/webpaths/chrome-mac-x64/Google Chrome for Testing.app', 'chromedriver_path': '/Users/narendrachowdary/development/webpaths/chromedriver-mac-arm64/chromedriver', 'login_credentials': [{'username': 'Jaswika.b', 'password': 'jaswika'}, {'username': 'user2', 'password': 'password2'}, {'username': 'user3', 'password': 'password3'}]} - <module> - MainThread
+2024-11-29 10:15:03,989 - ERROR - __init__.py:1241 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running - __threaded_polling - MainThread
+2024-11-29 10:15:03,990 - ERROR - __init__.py:1243 - Exception traceback:
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 330, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ - __threaded_polling - MainThread
+2024-11-29 10:15:08,266 - ERROR - __init__.py:1241 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running - __threaded_polling - MainThread
+2024-11-29 10:15:08,269 - ERROR - __init__.py:1243 - Exception traceback:
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 330, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ - __threaded_polling - MainThread
+2024-11-29 10:15:39,453 - INFO - demo1_bot.py:64 - Loaded config: {'api_key': '7874697193:AAHkMBjc-tdNx5KBhtMnJ-ZheI5EzIdp2a8', 'chrome_path': '/Users/narendrachowdary/development/webpaths/chrome-mac-x64/Google Chrome for Testing.app', 'chromedriver_path': '/Users/narendrachowdary/development/webpaths/chromedriver-mac-arm64/chromedriver', 'login_credentials': [{'username': 'Jaswika.b', 'password': 'jaswika'}, {'username': 'user2', 'password': 'password2'}, {'username': 'user3', 'password': 'password3'}]} - <module> - MainThread
+2024-11-29 10:15:44,661 - ERROR - __init__.py:1241 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running - __threaded_polling - MainThread
+2024-11-29 10:15:44,663 - ERROR - __init__.py:1243 - Exception traceback:
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 330, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ - __threaded_polling - MainThread
+2024-11-29 10:15:48,813 - ERROR - __init__.py:1241 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running - __threaded_polling - MainThread
+2024-11-29 10:15:48,815 - ERROR - __init__.py:1243 - Exception traceback:
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 330, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ - __threaded_polling - MainThread
+2024-11-29 10:15:53,713 - ERROR - __init__.py:1241 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running - __threaded_polling - MainThread
+2024-11-29 10:15:53,715 - ERROR - __init__.py:1243 - Exception traceback:
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 330, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ - __threaded_polling - MainThread
+2024-11-29 10:15:58,992 - ERROR - __init__.py:1241 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running - __threaded_polling - MainThread
+2024-11-29 10:15:58,994 - ERROR - __init__.py:1243 - Exception traceback:
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 330, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ - __threaded_polling - MainThread
+2024-11-29 10:16:05,140 - ERROR - __init__.py:1241 - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running - __threaded_polling - MainThread
+2024-11-29 10:16:05,143 - ERROR - __init__.py:1243 - Exception traceback:
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 330, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ - __threaded_polling - MainThread
+2024-11-29 10:19:09,003 - INFO - demo1_bot.py:64 - Loaded config: {'api_key': '7874697193:AAHkMBjc-tdNx5KBhtMnJ-ZheI5EzIdp2a8', 'chrome_path': '/Users/narendrachowdary/development/webpaths/chrome-mac-x64/Google Chrome for Testing.app', 'chromedriver_path': '/Users/narendrachowdary/development/webpaths/chromedriver-mac-arm64/chromedriver', 'login_credentials': [{'username': 'Jaswika.b', 'password': 'jaswika'}, {'username': 'user2', 'password': 'password2'}, {'username': 'user3', 'password': 'password3'}]} - <module> - MainThread
+2024-11-29 10:19:14,974 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread1
+2024-11-29 10:19:15,465 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread2
+2024-11-29 10:19:17,340 - INFO - demo1_bot.py:87 - Edited message: Selected Academic Year: 2024-25
+Please select the Year of Study: - safe_edit_message_text - WorkerThread2
+2024-11-29 10:19:19,351 - INFO - demo1_bot.py:87 - Edited message: Selected Year of Study: 31
+Please select the Branch: - safe_edit_message_text - WorkerThread2
+2024-11-29 10:19:21,534 - INFO - demo1_bot.py:87 - Edited message: Selected Branch: CSE
+Please select the Section: - safe_edit_message_text - WorkerThread2
+2024-11-29 10:19:23,448 - INFO - demo1_bot.py:87 - Edited message: Selected Section: c
+Please enter your roll number (in uppercase): - safe_edit_message_text - WorkerThread1
+2024-11-29 10:19:28,120 - INFO - demo1_bot.py:471 - User entered roll number: 22KB1A0521 - process_roll_number - WorkerThread1
+2024-11-29 10:19:28,124 - ERROR - demo1_bot.py:153 - Error handling user request: Chrome binary not found at /Users/narendrachowdary/development/webpaths/chrome-mac-x64/Google Chrome for Testing.app - handle_user_request - Thread-1 (handle_user_request)
+Traceback (most recent call last):
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 150, in handle_user_request
+    with open_browser() as browser:
+  File "/opt/anaconda3/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 132, in open_browser
+    raise FileNotFoundError(f"Chrome binary not found at {CHROME_PATH}")
+FileNotFoundError: Chrome binary not found at /Users/narendrachowdary/development/webpaths/chrome-mac-x64/Google Chrome for Testing.app
+2024-11-29 10:19:29,212 - INFO - demo1_bot.py:79 - Sent message: An error occurred while processing your request. Please try again later.  A detailed error has been logged. - safe_reply_to - Thread-1 (handle_user_request)
+2024-11-29 10:22:09,899 - INFO - demo1_bot.py:64 - Loaded config: {'api_key': '7874697193:AAHkMBjc-tdNx5KBhtMnJ-ZheI5EzIdp2a8', 'chrome_path': '/Users/narendrachowdary/development/webpaths/chrome-mac-x64/Google Chrome for Testing', 'chromedriver_path': '/Users/narendrachowdary/development/webpaths/chromedriver-mac-arm64/chromedriver', 'login_credentials': [{'username': 'Jaswika.b', 'password': 'jaswika'}, {'username': 'user2', 'password': 'password2'}, {'username': 'user3', 'password': 'password3'}]} - <module> - MainThread
+2024-11-29 10:22:13,539 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread2
+2024-11-29 10:22:15,045 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread2
+2024-11-29 10:22:17,419 - INFO - demo1_bot.py:87 - Edited message: Selected Academic Year: 2024-25
+Please select the Year of Study: - safe_edit_message_text - WorkerThread1
+2024-11-29 10:22:19,355 - INFO - demo1_bot.py:87 - Edited message: Selected Year of Study: 31
+Please select the Branch: - safe_edit_message_text - WorkerThread1
+2024-11-29 10:22:22,073 - INFO - demo1_bot.py:87 - Edited message: Selected Branch: CSE
+Please select the Section: - safe_edit_message_text - WorkerThread2
+2024-11-29 10:22:24,104 - INFO - demo1_bot.py:87 - Edited message: Selected Section: c
+Please enter your roll number (in uppercase): - safe_edit_message_text - WorkerThread1
+2024-11-29 10:22:27,771 - INFO - demo1_bot.py:471 - User entered roll number: 22KB1A0521 - process_roll_number - WorkerThread2
+2024-11-29 10:22:27,774 - ERROR - demo1_bot.py:153 - Error handling user request: Chrome binary not found at /Users/narendrachowdary/development/webpaths/chrome-mac-x64/Google Chrome for Testing - handle_user_request - Thread-1 (handle_user_request)
+Traceback (most recent call last):
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 150, in handle_user_request
+    with open_browser() as browser:
+  File "/opt/anaconda3/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 132, in open_browser
+    raise FileNotFoundError(f"Chrome binary not found at {CHROME_PATH}")
+FileNotFoundError: Chrome binary not found at /Users/narendrachowdary/development/webpaths/chrome-mac-x64/Google Chrome for Testing
+2024-11-29 10:22:28,962 - INFO - demo1_bot.py:79 - Sent message: An error occurred while processing your request. Please try again later.  A detailed error has been logged. - safe_reply_to - Thread-1 (handle_user_request)
+2024-11-29 10:23:52,551 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread2
+2024-11-29 10:24:11,470 - ERROR - demo1_bot.py:47 - Error decoding config.json: Invalid \escape: line 3 column 85 (char 149). Using default values. - load_config - MainThread
+2024-11-29 10:24:11,470 - INFO - demo1_bot.py:64 - Loaded config: {'api_key': 'YOUR_API_KEY', 'chrome_path': '/usr/bin/google-chrome', 'chromedriver_path': '/usr/local/bin/chromedriver', 'login_credentials': []} - <module> - MainThread
+2024-11-29 10:24:12,371 - ERROR - demo1_bot.py:481 - Bot polling failed: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found - run_bot - MainThread
+Traceback (most recent call last):
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 479, in run_bot
+    bot.polling(none_stop=True)
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-11-29 10:24:33,565 - ERROR - demo1_bot.py:47 - Error decoding config.json: Invalid \escape: line 3 column 85 (char 149). Using default values. - load_config - MainThread
+2024-11-29 10:24:33,565 - INFO - demo1_bot.py:64 - Loaded config: {'api_key': 'YOUR_API_KEY', 'chrome_path': '/usr/bin/google-chrome', 'chromedriver_path': '/usr/local/bin/chromedriver', 'login_credentials': []} - <module> - MainThread
+2024-11-29 10:24:34,446 - ERROR - demo1_bot.py:481 - Bot polling failed: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found - run_bot - MainThread
+Traceback (most recent call last):
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 479, in run_bot
+    bot.polling(none_stop=True)
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-11-29 10:25:05,104 - ERROR - demo1_bot.py:481 - Bot polling failed: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found - run_bot - MainThread
+Traceback (most recent call last):
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 479, in run_bot
+    bot.polling(none_stop=True)
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/telebot/apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-11-29 10:25:32,948 - INFO - demo1_bot.py:64 - Loaded config: {'api_key': '7874697193:AAHkMBjc-tdNx5KBhtMnJ-ZheI5EzIdp2a8', 'chrome_path': '/Users/narendrachowdary/development/webpaths/chrome-mac-x64/Google Chrome for Testing.app', 'chromedriver_path': '/Users/narendrachowdary/development/webpaths/chromedriver-mac-arm64/chromedriver', 'login_credentials': [{'username': 'Jaswika.b', 'password': 'jaswika'}, {'username': 'user2', 'password': 'password2'}, {'username': 'user3', 'password': 'password3'}]} - <module> - MainThread
+2024-11-29 10:25:36,215 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread1
+2024-11-29 10:25:36,696 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread2
+2024-11-29 10:25:39,567 - INFO - demo1_bot.py:87 - Edited message: Selected Academic Year: 2024-25
+Please select the Year of Study: - safe_edit_message_text - WorkerThread2
+2024-11-29 10:25:42,601 - INFO - demo1_bot.py:87 - Edited message: Selected Year of Study: 31
+Please select the Branch: - safe_edit_message_text - WorkerThread2
+2024-11-29 10:25:45,420 - INFO - demo1_bot.py:87 - Edited message: Selected Branch: CSE
+Please select the Section: - safe_edit_message_text - WorkerThread2
+2024-11-29 10:25:47,866 - INFO - demo1_bot.py:87 - Edited message: Selected Section: c
+Please enter your roll number (in uppercase): - safe_edit_message_text - WorkerThread2
+2024-11-29 10:25:51,947 - INFO - demo1_bot.py:471 - User entered roll number: 22KB1A0521 - process_roll_number - WorkerThread1
+2024-11-29 10:25:51,950 - ERROR - demo1_bot.py:153 - Error handling user request: Chrome binary not found at /Users/narendrachowdary/development/webpaths/chrome-mac-x64/Google Chrome for Testing.app - handle_user_request - Thread-1 (handle_user_request)
+Traceback (most recent call last):
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 150, in handle_user_request
+    with open_browser() as browser:
+  File "/opt/anaconda3/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 132, in open_browser
+    raise FileNotFoundError(f"Chrome binary not found at {CHROME_PATH}")
+FileNotFoundError: Chrome binary not found at /Users/narendrachowdary/development/webpaths/chrome-mac-x64/Google Chrome for Testing.app
+2024-11-29 10:25:53,287 - INFO - demo1_bot.py:79 - Sent message: An error occurred while processing your request. Please try again later.  A detailed error has been logged. - safe_reply_to - Thread-1 (handle_user_request)
+2024-11-29 10:26:49,334 - INFO - demo1_bot.py:64 - Loaded config: {'api_key': '7874697193:AAHkMBjc-tdNx5KBhtMnJ-ZheI5EzIdp2a8', 'chrome_path': '/Users/narendrachowdary/development/webpaths/chrome-headless-shell-mac-arm64/chrome-headless-shell', 'chromedriver_path': '/Users/narendrachowdary/development/webpaths/chromedriver-mac-arm64/chromedriver', 'login_credentials': [{'username': 'Jaswika.b', 'password': 'jaswika'}, {'username': 'user2', 'password': 'password2'}, {'username': 'user3', 'password': 'password3'}]} - <module> - MainThread
+2024-11-29 10:26:53,856 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread2
+2024-11-29 10:26:55,751 - INFO - demo1_bot.py:87 - Edited message: Selected Academic Year: 2024-25
+Please select the Year of Study: - safe_edit_message_text - WorkerThread2
+2024-11-29 10:26:58,955 - INFO - demo1_bot.py:87 - Edited message: Selected Year of Study: 31
+Please select the Branch: - safe_edit_message_text - WorkerThread1
+2024-11-29 10:27:01,585 - INFO - demo1_bot.py:87 - Edited message: Selected Branch: CSE
+Please select the Section: - safe_edit_message_text - WorkerThread2
+2024-11-29 10:27:03,579 - INFO - demo1_bot.py:87 - Edited message: Selected Section: c
+Please enter your roll number (in uppercase): - safe_edit_message_text - WorkerThread2
+2024-11-29 10:27:07,754 - INFO - demo1_bot.py:471 - User entered roll number: 22KB1A0521 - process_roll_number - WorkerThread1
+2024-11-29 10:27:23,936 - ERROR - demo1_bot.py:153 - Error handling user request: Message: Service /Users/narendrachowdary/development/webpaths/chromedriver-mac-arm64/chromedriver unexpectedly exited. Status code was: -9
+ - handle_user_request - Thread-1 (handle_user_request)
+Traceback (most recent call last):
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 150, in handle_user_request
+    with open_browser() as browser:
+  File "/opt/anaconda3/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 140, in open_browser
+    browser = webdriver.Chrome(service=service, options=chrome_options)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/opt/anaconda3/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 53, in __init__
+    self.service.start()
+  File "/opt/anaconda3/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 109, in start
+    self.assert_process_still_running()
+  File "/opt/anaconda3/lib/python3.11/site-packages/selenium/webdriver/common/service.py", line 122, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /Users/narendrachowdary/development/webpaths/chromedriver-mac-arm64/chromedriver unexpectedly exited. Status code was: -9
+
+2024-11-29 10:27:25,059 - INFO - demo1_bot.py:79 - Sent message: An error occurred while processing your request. Please try again later.  A detailed error has been logged. - safe_reply_to - Thread-1 (handle_user_request)
+2024-11-29 12:38:43,232 - INFO - demo1_bot.py:64 - Loaded config: {'api_key': '7874697193:AAHkMBjc-tdNx5KBhtMnJ-ZheI5EzIdp2a8', 'chrome_path': '/Users/narendrachowdary/development/webpaths/chrome-headless-shell-mac-arm64/chrome-headless-shell', 'chromedriver_path': '/Users/narendrachowdary/development/webpaths/chromedriver-mac-arm64/chromedriver', 'login_credentials': [{'username': 'Jaswika.b', 'password': 'jaswika'}, {'username': 'user2', 'password': 'password2'}, {'username': 'user3', 'password': 'password3'}]} - <module> - MainThread
+2024-11-29 12:38:57,416 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread2
+2024-11-29 12:39:00,308 - INFO - demo1_bot.py:87 - Edited message: Selected Academic Year: 2024-25
+Please select the Year of Study: - safe_edit_message_text - WorkerThread1
+2024-11-29 12:39:02,429 - INFO - demo1_bot.py:87 - Edited message: Selected Year of Study: 31
+Please select the Branch: - safe_edit_message_text - WorkerThread2
+2024-11-29 12:39:04,476 - INFO - demo1_bot.py:87 - Edited message: Selected Branch: CSE
+Please select the Section: - safe_edit_message_text - WorkerThread1
+2024-11-29 12:39:06,458 - INFO - demo1_bot.py:87 - Edited message: Selected Section: c
+Please enter your roll number (in uppercase): - safe_edit_message_text - WorkerThread2
+2024-11-29 12:39:10,509 - INFO - demo1_bot.py:471 - User entered roll number: 22KB1A0521 - process_roll_number - WorkerThread1
+2024-11-29 12:39:33,927 - INFO - demo1_bot.py:321 - Processing attendance for roll number: 22KB1A0521, Branch: CSE, Section: c - process_attendance_details - Thread-1 (handle_user_request)
+2024-11-29 12:39:35,016 - INFO - demo1_bot.py:79 - Sent message: Fetching attendance details... - safe_reply_to - Thread-1 (handle_user_request)
+2024-11-29 12:39:37,060 - INFO - demo1_bot.py:159 - Navigated to attendance page. - navigate_to_attendance_page - Thread-1 (handle_user_request)
+2024-11-29 12:39:37,544 - INFO - demo1_bot.py:187 - Login submitted. - login_to_system - Thread-1 (handle_user_request)
+2024-11-29 12:39:38,374 - INFO - demo1_bot.py:194 - Clicked 'Continue to Login' button (link text). - login_to_system - Thread-1 (handle_user_request)
+2024-11-29 12:39:48,649 - INFO - demo1_bot.py:206 - Continue to Login button not found (ID): Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102cf3ac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x0000000102cec314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001027544b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102798898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x00000001027d20fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x000000010278d0b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x000000010278dd00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x0000000102cbee08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x0000000102cc2120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x0000000102ca617c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x0000000102cc29e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000102c97988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x0000000102cdd0f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x0000000102cdd270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x0000000102cebf88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x0000000188f6f2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000188f6a0fc thread_start + 8
+ - login_to_system - Thread-1 (handle_user_request)
+2024-11-29 12:39:48,670 - INFO - demo1_bot.py:212 - Login successful. - login_to_system - Thread-1 (handle_user_request)
+2024-11-29 12:39:48,860 - INFO - demo1_bot.py:254 - Form details selected. - select_form_details - Thread-1 (handle_user_request)
+2024-11-29 12:39:49,454 - INFO - demo1_bot.py:264 - Show button clicked. - click_show_button - Thread-1 (handle_user_request)
+2024-11-29 12:39:49,461 - INFO - demo1_bot.py:273 - Attendance details page loaded. - wait_for_page_load - Thread-1 (handle_user_request)
+2024-11-29 12:39:50,130 - INFO - demo1_bot.py:79 - Sent message: Attendance details:
+
+roll_number: 22KB1A0521
+attendance_percentage: 55.34
+total_classes: (202 / 365)
+WAN: 22
+OOAD: 29
+ENP: 12
+DWM: 28
+CEHT: 14
+AI: 25
+( 24, 33, 15 ): 72 - safe_reply_to - Thread-1 (handle_user_request)
+2024-11-29 12:40:34,905 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread2
+2024-11-29 12:40:56,163 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread1
+2024-11-29 12:41:15,807 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread2
+2024-11-29 12:41:17,664 - INFO - demo1_bot.py:87 - Edited message: Selected Academic Year: 2024-25
+Please select the Year of Study: - safe_edit_message_text - WorkerThread2
+2024-11-29 12:41:19,881 - INFO - demo1_bot.py:87 - Edited message: Selected Year of Study: 31
+Please select the Branch: - safe_edit_message_text - WorkerThread1
+2024-11-29 12:41:22,231 - INFO - demo1_bot.py:87 - Edited message: Selected Branch: CSE
+Please select the Section: - safe_edit_message_text - WorkerThread1
+2024-11-29 12:41:24,036 - INFO - demo1_bot.py:87 - Edited message: Selected Section: c
+Please enter your roll number (in uppercase): - safe_edit_message_text - WorkerThread2
+2024-11-29 12:41:27,815 - INFO - demo1_bot.py:471 - User entered roll number: 22KB1A0521 - process_roll_number - WorkerThread2
+2024-11-29 12:41:54,133 - INFO - demo1_bot.py:321 - Processing attendance for roll number: 22KB1A0521, Branch: CSE, Section: c - process_attendance_details - Thread-2 (handle_user_request)
+2024-11-29 12:41:56,463 - INFO - demo1_bot.py:79 - Sent message: Fetching attendance details... - safe_reply_to - Thread-2 (handle_user_request)
+2024-11-29 12:41:58,052 - INFO - demo1_bot.py:159 - Navigated to attendance page. - navigate_to_attendance_page - Thread-2 (handle_user_request)
+2024-11-29 12:41:58,571 - INFO - demo1_bot.py:187 - Login submitted. - login_to_system - Thread-2 (handle_user_request)
+2024-11-29 12:41:59,382 - INFO - demo1_bot.py:194 - Clicked 'Continue to Login' button (link text). - login_to_system - Thread-2 (handle_user_request)
+2024-11-29 12:42:09,654 - INFO - demo1_bot.py:206 - Continue to Login button not found (ID): Message: 
+Stacktrace:
+0   chromedriver                        0x00000001027bbac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001027b4314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x000000010221c4b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102260898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x000000010229a0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x00000001022550b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000102255d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x0000000102786e08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010278a120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010276e17c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010278a9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x000000010275f988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001027a50f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x00000001027a5270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x00000001027b3f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x0000000188f6f2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000188f6a0fc thread_start + 8
+ - login_to_system - Thread-2 (handle_user_request)
+2024-11-29 12:42:09,675 - INFO - demo1_bot.py:212 - Login successful. - login_to_system - Thread-2 (handle_user_request)
+2024-11-29 12:42:09,853 - INFO - demo1_bot.py:254 - Form details selected. - select_form_details - Thread-2 (handle_user_request)
+2024-11-29 12:42:10,460 - INFO - demo1_bot.py:264 - Show button clicked. - click_show_button - Thread-2 (handle_user_request)
+2024-11-29 12:42:10,468 - INFO - demo1_bot.py:273 - Attendance details page loaded. - wait_for_page_load - Thread-2 (handle_user_request)
+2024-11-29 12:42:10,977 - INFO - demo1_bot.py:79 - Sent message: Attendance details:
+
+roll_number: 22KB1A0521
+attendance_percentage: 55.34
+total_classes: (202 / 365)
+WAN: 22
+OOAD: 29
+ENP: 12
+DWM: 28
+CEHT: 14
+AI: 25
+( 24, 33, 15 ): 72 - safe_reply_to - Thread-2 (handle_user_request)
+2024-11-29 12:53:18,943 - ERROR - demo1_bot.py:481 - Bot polling failed: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25) - run_bot - MainThread
+Traceback (most recent call last):
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 1419, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1253, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1105, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/demo1_bot.py", line 479, in run_bot
+    bot.polling(none_stop=True)
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/telebot/__init__.py", line 1043, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/telebot/__init__.py", line 1118, in __threaded_polling
+    raise e
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/telebot/__init__.py", line 1073, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/telebot/util.py", line 108, in raise_exceptions
+    raise self.exception_info
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/telebot/util.py", line 90, in run
+    task(*args, **kwargs)
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/telebot/__init__.py", line 649, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/telebot/__init__.py", line 623, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/telebot/apihelper.py", line 321, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/telebot/apihelper.py", line 156, in _make_request
+    result = _get_req_session().request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narendrachowdary/development/google cloud vm/organasing att/.venv/lib/python3.12/site-packages/requests/adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+2024-11-29 17:26:56,731 - INFO - demo1_bot.py:64 - Loaded config: {'api_key': '7874697193:AAHkMBjc-tdNx5KBhtMnJ-ZheI5EzIdp2a8', 'chrome_path': '/Users/narendrachowdary/development/webpaths/chrome-headless-shell-mac-arm64/chrome-headless-shell', 'chromedriver_path': '/Users/narendrachowdary/development/webpaths/chromedriver-mac-arm64/chromedriver', 'login_credentials': [{'username': 'Jaswika.b', 'password': 'jaswika'}, {'username': 'user2', 'password': 'password2'}, {'username': 'user3', 'password': 'password3'}]} - <module> - MainThread
+2024-11-29 17:26:59,996 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread2
+2024-11-29 17:27:04,796 - INFO - demo1_bot.py:87 - Edited message: Selected Academic Year: 2024-25
+Please select the Year of Study: - safe_edit_message_text - WorkerThread2
+2024-11-29 17:27:06,995 - INFO - demo1_bot.py:87 - Edited message: Selected Year of Study: 31
+Please select the Branch: - safe_edit_message_text - WorkerThread2
+2024-11-29 17:27:09,870 - INFO - demo1_bot.py:87 - Edited message: Selected Branch: CSE
+Please select the Section: - safe_edit_message_text - WorkerThread1
+2024-11-29 17:27:11,766 - INFO - demo1_bot.py:87 - Edited message: Selected Section: c
+Please enter your roll number (in uppercase): - safe_edit_message_text - WorkerThread1
+2024-11-29 17:27:15,564 - INFO - demo1_bot.py:475 - User entered roll number: 22KB1A0521 - process_roll_number - WorkerThread2
+2024-11-29 17:27:16,802 - INFO - demo1_bot.py:325 - Processing attendance for roll number: 22KB1A0521, Branch: CSE, Section: c - process_attendance_details - Thread-1 (handle_user_request)
+2024-11-29 17:27:17,871 - INFO - demo1_bot.py:79 - Sent message: Fetching attendance details... - safe_reply_to - Thread-1 (handle_user_request)
+2024-11-29 17:27:19,828 - INFO - demo1_bot.py:159 - Navigated to attendance page. - navigate_to_attendance_page - Thread-1 (handle_user_request)
+2024-11-29 17:27:20,321 - INFO - demo1_bot.py:191 - Login submitted. - login_to_system - Thread-1 (handle_user_request)
+2024-11-29 17:27:21,307 - INFO - demo1_bot.py:198 - Clicked 'Continue to Login' button (link text). - login_to_system - Thread-1 (handle_user_request)
+2024-11-29 17:27:31,578 - INFO - demo1_bot.py:210 - Continue to Login button not found (ID): Message: 
+Stacktrace:
+0   chromedriver                        0x00000001029bfac4 cxxbridge1$str$ptr + 3651580
+1   chromedriver                        0x00000001029b8314 cxxbridge1$str$ptr + 3620940
+2   chromedriver                        0x00000001024204b4 cxxbridge1$string$len + 89224
+3   chromedriver                        0x0000000102464898 cxxbridge1$string$len + 368748
+4   chromedriver                        0x000000010249e0fc cxxbridge1$string$len + 604368
+5   chromedriver                        0x00000001024590b0 cxxbridge1$string$len + 321668
+6   chromedriver                        0x0000000102459d00 cxxbridge1$string$len + 324820
+7   chromedriver                        0x000000010298ae08 cxxbridge1$str$ptr + 3435328
+8   chromedriver                        0x000000010298e120 cxxbridge1$str$ptr + 3448408
+9   chromedriver                        0x000000010297217c cxxbridge1$str$ptr + 3333812
+10  chromedriver                        0x000000010298e9e0 cxxbridge1$str$ptr + 3450648
+11  chromedriver                        0x0000000102963988 cxxbridge1$str$ptr + 3274432
+12  chromedriver                        0x00000001029a90f4 cxxbridge1$str$ptr + 3558956
+13  chromedriver                        0x00000001029a9270 cxxbridge1$str$ptr + 3559336
+14  chromedriver                        0x00000001029b7f88 cxxbridge1$str$ptr + 3620032
+15  libsystem_pthread.dylib             0x0000000188f6f2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000188f6a0fc thread_start + 8
+ - login_to_system - Thread-1 (handle_user_request)
+2024-11-29 17:27:31,587 - INFO - demo1_bot.py:216 - Login successful. - login_to_system - Thread-1 (handle_user_request)
+2024-11-29 17:27:31,764 - INFO - demo1_bot.py:258 - Form details selected. - select_form_details - Thread-1 (handle_user_request)
+2024-11-29 17:27:32,398 - INFO - demo1_bot.py:268 - Show button clicked. - click_show_button - Thread-1 (handle_user_request)
+2024-11-29 17:27:32,406 - INFO - demo1_bot.py:277 - Attendance details page loaded. - wait_for_page_load - Thread-1 (handle_user_request)
+2024-11-29 17:27:33,072 - INFO - demo1_bot.py:79 - Sent message: Attendance details:
+
+roll_number: 22KB1A0521
+attendance_percentage: 55.34
+total_classes: (202 / 365)
+WAN: 22
+OOAD: 29
+ENP: 12
+DWM: 28
+CEHT: 14
+AI: 25
+( 24, 33, 15 ): 72 - safe_reply_to - Thread-1 (handle_user_request)
+2024-11-29 18:07:51,667 - INFO - demo1_bot.py:79 - Sent message: Please select the Academic Year: - safe_reply_to - WorkerThread1
+2024-11-29 18:07:55,708 - INFO - demo1_bot.py:87 - Edited message: Selected Academic Year: 2024-25
+Please select the Year of Study: - safe_edit_message_text - WorkerThread1
+2024-11-29 18:08:03,182 - INFO - demo1_bot.py:87 - Edited message: Selected Year of Study: 31
+Please select the Branch: - safe_edit_message_text - WorkerThread1
