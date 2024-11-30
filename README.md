@@ -1,4 +1,4 @@
-# Telegram Attendance Bot
+# NBKRIST Telegram Attendance Bot
 
 This project is a **Telegram bot** designed to fetch and display attendance information for students based on their academic year, year of study, branch, and roll number. It uses **Selenium** for web scraping and the **PyTelegramBotAPI** library for interacting with Telegram.
 
