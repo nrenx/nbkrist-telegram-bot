@@ -1,0 +1,20 @@
+{
+    "api_key": "7874697193:AAFPpL_vmhM1cBASxW5VsNz-0yF94VoSbG8",
+    "chrome_path": "./chrome/chrome-headless-shell-mac-arm64/chrome-headless-shell",
+    "chromedriver_path": "./chromedriver/chromedriver-mac-arm64/chromedriver",
+    "marks_url": "http://103.203.175.90:94/mid_marks/classSelectionForMarksDisplay.php",
+    "login_credentials": [
+        {
+            "username": "Jaswika.b",
+            "password": "jaswika"
+        },
+        {
+            "username": "user2",
+            "password": "password2"
+        },
+        {
+            "username": "user3",
+            "password": "password3"
+        }
+    ]
+}
